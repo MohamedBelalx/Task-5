@@ -1,0 +1,147 @@
+body{
+    background-color: white;
+    height: 4000px;
+}
+
+
+.container{
+    width: 1170px;
+    margin: auto;
+    
+}
+
+.clear{clear: both;}
+/* start header */
+
+.header .slider{
+    background-color:#FFF;
+    height:600px;
+    background-image:url(image/45Edf.jpg);
+    background-size: cover;
+    
+}
+
+
+.header .navbar{
+    background-color:black;
+    color: #FFF;
+    overflow: hidden;
+}
+
+.header .navbar h2{
+    float: left;
+    font-family:'Lobster',cursive;
+}
+
+.header .navbar h2 span{
+    color: lawngreen;
+    text-transform:uppercase;
+    font-family:cursive;
+
+}
+
+.header .navbar ul{
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right;
+}
+
+.header .navbar ul li{
+    float: left;
+    padding: 10px;
+}
+
+
+
+/* end header */
+
+/* start feats */
+
+.feats{
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.feats .feat{
+    float: left;
+    width: 33.33333%;
+    height:150px;
+    background-color:#DDD;
+}
+
+.feats .feat h2{
+    text-transform: uppercase;
+}
+
+/* end feats */
+
+/* start about me */
+
+.about{
+    background-color:aliceblue;
+    overflow: hidden;
+}
+
+.about .img{
+    float: left;
+    width:40%;
+}
+
+.about .img img{width:100%;}
+.about .info{
+    float:left;
+    width=60%;
+    padding-top: 60px;
+    padding-left: 60px;
+}
+
+.about .info .hob{
+    overflow: hidden;
+    margin: 20px;
+}
+
+.about .info .hob > div{
+    float:left;
+    width: 50%;
+    min-height: 100px;
+}
+/* end about me */
+
+/* start skills */
+.skills{
+    padding-top: 30px;
+    padding-bpttom:30px;
+    overflow: hidden;
+}
+
+.skills .skill, .skills .prog{
+    float: left;
+    width:50%;
+}
+/* end skills */
+
+/* start resume */
+.resume{
+    background-color: #F2F2F2;
+    padding-top: 30px;
+    padding-bpttom:30px;
+    text-align: center;
+}
+/* end resume */
+
+
+
+/* start edu */
+.edu{
+    padding-top: 30px;
+    padding-bpttom:30px;
+    overflow: hidden;
+}
+
+.edu .main, .edu .exp{
+    float: left;
+    width:50%;
+}
+/* end edu */
